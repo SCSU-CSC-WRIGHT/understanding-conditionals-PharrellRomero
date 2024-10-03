@@ -1,1 +1,79 @@
+#Flow-control-condition
 
+#Temperature check
+temp=int(input("Enter the current temperature: "))
+if (temp>30):
+    print("Its a hot day")
+else:
+    print("The weather is cool")
+
+print("-"*50)
+
+#Number comparison
+x=int(input("Enter two numbers: "))
+y=int(input("Enter two numbers: "))
+if (x>y):
+      print(x)
+elif (y>x):
+    print(y)
+else:
+    print("They're equal")
+
+print("-"*50)
+
+#Password checker
+pw=input("Make a password: ")
+ch=input("Enter the password you made: ")
+if (pw==ch):
+    print("Access granted")
+else:
+    print("Access denied")
+
+print("-"*50)
+
+#Simple Calculator
+x=int(input("Enter two numbers: "))
+y=int(input("Enter two numbers: "))
+op=input("Enter operation (+,-,*,/): ")
+if (op=="+"):
+    print(x+y)
+elif (op=="-"):
+    print(x-y)
+elif (op=="*"):
+    print(x*y)
+elif (op=="/"):
+    print(x/y)
+else:
+    print("Error")
+
+print("-"*50)
+
+#Positive, Negative, or zero
+num=float(input("Enter a number: "))
+if (num>0):
+    print("This is positive")
+elif (num<0):
+    print("This is a negative")
+else:
+    print("This is a 0")
+
+print("-"*50)
+
+#Day of the week
+day=int(input("Enter a number 1-7: ")
+if (day==1):
+        print("Today's Monday")
+elif (day==2):
+    print("Today's Tuesday")
+elif (day==3):
+    print("Today's Wednesday")
+elif (day==4):
+    print("Today's Thursday")
+elif (day==5):
+    print("Today's Friday")
+elif (day==6):
+    print("Today's Saturday")
+elif (day==7):
+    print("Today's Sunday")
+else:
+    print("Error")
